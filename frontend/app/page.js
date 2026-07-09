@@ -116,7 +116,7 @@ export default function Home() {
         triggerUpload(file);
       } else {
         setUploadStatus('error');
-        setUploadError('Invalid file type. Only PDF documents are supported.');
+        setUploadError('Invalid file type. Only PDF documents are Supported.');
       }
     }
   };
