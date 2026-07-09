@@ -1,0 +1,36 @@
+# FastAPI Backend & Server
+fastapi>=0.115.0,<0.116.0
+uvicorn[standard]>=0.30.0,<0.31.0
+pydantic>=2.9.0,<2.10.0
+python-dotenv>=1.0.1,<1.1.0
+python-multipart>=0.0.9
+
+
+# AI & Orchestration
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-google-genai>=2.0.0,<2.1.0
+langgraph>=0.2.0,<0.3.0
+
+# Embeddings & Inference (Local BGE Embeddings)
+sentence-transformers>=3.1.0,<3.2.0
+torch>=2.6.0; sys_platform != 'darwin'
+numpy>=2.1.0
+cohere>=5.5.0,<5.6.0
+
+# Vector Database Client
+qdrant-client>=1.11.0,<1.12.0
+
+# PDF Parsing & Extraction
+pypdf>=4.2.0,<5.0.0
+llama-parse>=0.5.0,<0.6.0
+
+# Tools & APIs
+tavily-python>=0.3.3,<0.4.0
+google-generativeai>=0.8.0,<0.9.0
+
+# Evaluation & Metrics
+ragas>=0.2.0
+jinja2>=3.1.0
+pandas>=2.2.0
